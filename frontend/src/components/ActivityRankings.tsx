@@ -2,7 +2,7 @@ import React from 'react';
 import { useQuery } from '@apollo/client/react';
 import { GET_ACTIVITY_RANKINGS } from '../apollo/queries';
 
-// Define types for the query response
+//types for the query response
 interface ActivityRanking {
     activity: string;
     score: number;
@@ -16,7 +16,6 @@ interface ActivityRankingsData {
     };
 }
 
-// Map backend enum values to user-friendly display names
 const activityDisplayNames: Record<string, string> = {
     SKIING: 'Skiing',
     SURFING: 'Surfing',
