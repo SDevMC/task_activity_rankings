@@ -24,7 +24,6 @@ const activityDisplayNames: Record<string, string> = {
     INDOOR_SIGHTSEEING: 'Indoor Sightseeing'
 };
 
-// Map activities to icons (you can replace these with actual icon names from your UI library)
 const activityIcons: Record<string, string> = {
     SKIING: '⛷️',
     SURFING: '🏄',
